@@ -1,0 +1,580 @@
+{
+  "name": "eng_login_screen",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "DoDNrAKV6dUJvDNwyHEGj3",
+    "node": "1:18",
+    "version": "5296525026",
+    "component-id": "32e10c30f2649b1d46d7ab47f34b6c64a16adc74"
+  },
+  "default": "EngLoginScreen",
+  "documentation": "English Login screen test\n",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 2"
+      },
+      {
+        "type": "image",
+        "id": "Rectangle 8"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 4"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 6"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 5"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 3"
+      },
+      {
+        "type": "text",
+        "id": "TeDo"
+      },
+      {
+        "type": "text",
+        "id": "Brugernavn"
+      },
+      {
+        "type": "text",
+        "id": "Brugernavntxt"
+      },
+      {
+        "type": "text",
+        "id": "Kodeord"
+      },
+      {
+        "type": "text",
+        "id": "Kodeordtxt"
+      },
+      {
+        "type": "vector",
+        "id": "Line 1"
+      },
+      {
+        "type": "text",
+        "id": "Log in"
+      },
+      {
+        "type": "text",
+        "id": "Ikke registreret? Tilmeld dig!"
+      },
+      {
+        "type": "image",
+        "id": "Rectangle 7"
+      }
+    ],
+    "modes": {
+      "EngLoginScreen": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Rectangle 1",
+              "Rectangle 2",
+              "Rectangle 8",
+              "Rectangle 4",
+              "Rectangle 6",
+              "Rectangle 5",
+              "Rectangle 3",
+              "TeDo",
+              "Brugernavn",
+              "Brugernavntxt",
+              "Kodeord",
+              "Kodeordtxt",
+              "Line 1",
+              "Log in",
+              "Ikke registreret? Tilmeld dig!",
+              "Rectangle 7"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Rectangle 1",
+            "border-radius": 50.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_1.svg"
+          },
+          {
+            "id": "Rectangle 2",
+            "margin": {
+              "left": 14.0,
+              "top": 27.0,
+              "right": 15.0,
+              "bottom": 14.0
+            },
+            "border-radius": 50.0,
+            "drop-shadow": {
+              "color": {
+                "alpha": 0.24705882352941178,
+                "hue": 0.0,
+                "saturation": 0.0,
+                "value": 0.0
+              },
+              "blur": 4.0,
+              "offset-x": 0.0,
+              "offset-y": 4.0,
+              "spread": 0.0,
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -4.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_2.svg"
+          },
+          {
+            "id": "Rectangle 8",
+            "margin": {
+              "left": 56.0,
+              "top": 809.0,
+              "right": 538.0,
+              "bottom": 79.0
+            },
+            "border-radius": 50.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "image-content": "rectangle_8.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Rectangle 4",
+            "margin": {
+              "left": 174.0,
+              "top": 362.0,
+              "right": 173.0,
+              "bottom": 500.0
+            },
+            "border-radius": 117.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_4.svg"
+          },
+          {
+            "id": "Rectangle 6",
+            "margin": {
+              "left": 265.0,
+              "top": 619.0,
+              "right": 264.0,
+              "bottom": 269.0
+            },
+            "border-radius": 117.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_6.svg"
+          },
+          {
+            "id": "Rectangle 5",
+            "margin": {
+              "left": 171.0,
+              "top": 492.0,
+              "right": 176.0,
+              "bottom": 370.0
+            },
+            "border-radius": 117.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_5.svg"
+          },
+          {
+            "id": "Rectangle 3",
+            "margin": {
+              "left": 128.0,
+              "top": 34.0,
+              "right": 134.0,
+              "bottom": 803.0
+            },
+            "border-radius": 50.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_3.svg"
+          },
+          {
+            "id": "TeDo",
+            "margin": {
+              "left": 156.0,
+              "top": 62.0,
+              "right": 155.0,
+              "bottom": 760.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.027450980392156876,
+              "value": 1.0
+            },
+            "text-content": "TeDo",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 50.0,
+            "line-height": 1.09765625,
+            "typeface": "Cutive"
+          },
+          {
+            "id": "Brugernavn",
+            "margin": {
+              "left": 176.0,
+              "top": 376.0,
+              "right": 176.0,
+              "bottom": 515.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.007843137254901933,
+              "value": 1.0
+            },
+            "text-content": "Brugernavn",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 35.0,
+            "line-height": 1.2102272033691406,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Brugernavntxt",
+            "margin": {
+              "left": 176.0,
+              "top": 314.0,
+              "right": 176.0,
+              "bottom": 577.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.00784313725490196
+            },
+            "text-content": "Brugernavn",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 25.0,
+            "line-height": 1.210227279663086,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Kodeord",
+            "margin": {
+              "left": 176.0,
+              "top": 452.0,
+              "right": 176.0,
+              "bottom": 439.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.00784313725490196
+            },
+            "text-content": "Kodeord",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 25.0,
+            "line-height": 1.210227279663086,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Kodeordtxt",
+            "margin": {
+              "left": 176.0,
+              "top": 506.0,
+              "right": 176.0,
+              "bottom": 385.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Kodeord",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 35.0,
+            "line-height": 1.2102272033691406,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Line 1",
+            "margin": {
+              "left": 66.0,
+              "top": 275.0,
+              "right": 71.99908447265625,
+              "bottom": 659.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -4.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "line_1.svg"
+          },
+          {
+            "id": "Log in",
+            "margin": {
+              "left": 282.0,
+              "top": 619.0,
+              "right": 281.0,
+              "bottom": 273.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Log in",
+            "overflow": "visible",
+            "text-size": 35.0,
+            "line-height": 1.2102272033691406,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Ikke registreret? Tilmeld dig!",
+            "margin": {
+              "left": 162.0,
+              "top": 575.0,
+              "right": 161.0,
+              "bottom": 304.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.010309278350515427,
+              "value": 0.7607843137254902
+            },
+            "annotated-text-content": {
+              "text": "Ikke registeret? Tilmeld dig!\n",
+              "annotated-text-span-list": [
+                {
+                  "span-start": 0,
+                  "span-length": 17
+                },
+                {
+                  "span-start": 17,
+                  "span-length": 13,
+                  "annotated-text-style": {
+                    "underline": true
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 25.0,
+            "line-height": 1.210227279663086,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Rectangle 7",
+            "margin": {
+              "left": 137.0,
+              "top": 142.0,
+              "right": 142.0,
+              "bottom": 673.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "image-content": "rectangle_7.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "EngLoginScreen",
+      "size": {
+        "width": 666.0,
+        "height": 934.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

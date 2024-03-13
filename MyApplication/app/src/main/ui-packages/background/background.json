@@ -1,0 +1,116 @@
+{
+  "name": "background",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "xVNW4SVmpfT9EEcx9dm7zw",
+    "node": "1:5",
+    "version": "5297514176",
+    "component-id": "ab9a8051b09a2ee128812cfa3a2cbda5fe0739ac"
+  },
+  "default": "Background",
+  "documentation": "background for login screen",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 2"
+      }
+    ],
+    "modes": {
+      "Background": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Rectangle 1",
+              "Rectangle 2"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Rectangle 1",
+            "border-radius": 50.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_1.svg"
+          },
+          {
+            "id": "Rectangle 2",
+            "margin": {
+              "left": 14.0,
+              "top": 27.0,
+              "right": 15.0,
+              "bottom": 14.0
+            },
+            "border-radius": 50.0,
+            "drop-shadow": {
+              "color": {
+                "alpha": 0.24705882352941178,
+                "hue": 0.0,
+                "saturation": 0.0,
+                "value": 0.0
+              },
+              "blur": 4.0,
+              "offset-x": 0.0,
+              "offset-y": 4.0,
+              "spread": 0.0,
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -4.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_2.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Background",
+      "size": {
+        "width": 666.0,
+        "height": 934.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
